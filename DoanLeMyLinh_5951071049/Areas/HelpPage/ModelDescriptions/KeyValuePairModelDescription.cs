@@ -1,0 +1,9 @@
+namespace DoanLeMyLinh_5951071049.Areas.HelpPage.ModelDescriptions
+{
+    public class KeyValuePairModelDescription : ModelDescription
+    {
+        public ModelDescription KeyModelDescription { get; set; }
+
+        public ModelDescription ValueModelDescription { get; set; }
+    }
+}
